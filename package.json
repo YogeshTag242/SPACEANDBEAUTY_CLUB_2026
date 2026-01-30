@@ -10,14 +10,10 @@
       "dist/server/**/*.js"
     ]
   },
-
-  
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "build:client": "vite build client",
-   
-    
     "test": "vitest --run",
     "format.fix": "prettier --write .",
     "typecheck": "tsc"
@@ -25,6 +21,7 @@
   "dependencies": {
     "dotenv": "^17.2.1",
     "express": "^5.1.0",
+    "pg": "^8.17.2",
     "zod": "^3.25.76"
   },
   "devDependencies": {
@@ -64,9 +61,11 @@
     "@types/cors": "^2.8.19",
     "@types/express": "^5.0.3",
     "@types/node": "^24.2.1",
+    "@types/pg": "^8.16.0",
     "@types/react": "^18.3.23",
     "@types/react-dom": "^18.3.7",
     "@types/three": "^0.176.0",
+    "@vercel/node": "^5.5.28",
     "@vitejs/plugin-react-swc": "^4.0.0",
     "autoprefixer": "^10.4.21",
     "class-variance-authority": "^0.7.1",
