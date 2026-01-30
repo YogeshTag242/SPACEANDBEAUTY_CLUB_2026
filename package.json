@@ -13,7 +13,11 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+<<<<<<< HEAD
     "build:client": "vite build client",
+=======
+    "build:client": "vite build client", 
+>>>>>>> 8a9b1aa (payment done clearly file)
     "test": "vitest --run",
     "format.fix": "prettier --write .",
     "typecheck": "tsc"
