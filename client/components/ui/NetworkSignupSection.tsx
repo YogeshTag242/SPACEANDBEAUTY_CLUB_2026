@@ -109,7 +109,7 @@ export default function NetworkSignupSection() {
               phone: formData.phone,
               city: formData.city,
               paymentId: response.razorpay_payment_id,
-              amount: "2500",
+              amount: "1",
               status: "success",
             }),
           });
